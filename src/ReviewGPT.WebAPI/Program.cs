@@ -1,3 +1,5 @@
+using ReviewGPT.Application;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -19,7 +21,12 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+var generateReviewService = new GenerateReviewService();
 
-app.MapControllers();
+app.MapGet("/reviewgpt", async (string prUrl) => await generateReviewService.GenerateReview(prUrl));
 
 app.Run();
+
+
+
+
