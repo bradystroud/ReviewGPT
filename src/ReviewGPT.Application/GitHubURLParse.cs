@@ -1,6 +1,6 @@
 namespace ReviewGPT.Application;
 
-public static class GitHubURLParse
+public static class GitHubUrlParse
 {
     public static UrlParseResult Parse(string url)
     {

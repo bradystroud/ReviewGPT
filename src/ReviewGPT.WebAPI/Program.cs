@@ -11,10 +11,11 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
+app.UseSwagger();
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
     app.UseSwaggerUI();
 }
 
@@ -23,7 +24,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 var generateReviewService = new GenerateReviewService();
 
-app.MapGet("/reviewgpt", async (string prUrl) => await generateReviewService.GenerateReview(prUrl));
+app.MapGet("/review-gpt", async (string prUrl, string apiKey) => await generateReviewService.GenerateReview(prUrl, apiKey));
 
 app.Run();
 
