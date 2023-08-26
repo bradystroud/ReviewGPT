@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReviewGPT.CLI", "ReviewGPT.CLI\ReviewGPT.CLI.csproj", "{CAB2AF14-1563-43DD-8FC7-44386B602AF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReviewGPT.WebAPI", "ReviewGPT.WebAPI\ReviewGPT.WebAPI.csproj", "{7E82C77F-F9AD-4E15-9383-6824D6EAD631}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReviewGPT.Application", "ReviewGPT.Application\ReviewGPT.Application.csproj", "{79D52DC9-768F-4372-8B40-D621BC192DCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAB2AF14-1563-43DD-8FC7-44386B602AF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAB2AF14-1563-43DD-8FC7-44386B602AF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAB2AF14-1563-43DD-8FC7-44386B602AF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAB2AF14-1563-43DD-8FC7-44386B602AF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E82C77F-F9AD-4E15-9383-6824D6EAD631}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E82C77F-F9AD-4E15-9383-6824D6EAD631}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E82C77F-F9AD-4E15-9383-6824D6EAD631}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E82C77F-F9AD-4E15-9383-6824D6EAD631}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79D52DC9-768F-4372-8B40-D621BC192DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79D52DC9-768F-4372-8B40-D621BC192DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79D52DC9-768F-4372-8B40-D621BC192DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79D52DC9-768F-4372-8B40-D621BC192DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
